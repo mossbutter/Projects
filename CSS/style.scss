@@ -1,0 +1,33 @@
+@import 'variables';
+@import 'mixins';
+@import 'card';
+
+
+body {
+    background-color: #00807F;
+    background-image: url("../images/clouds.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    
+}
+
+header {
+    @include flex-center-margin();
+    display: none;
+    
+   
+}
+
+div.projects {
+    @include flex-center-margin();
+}
+
+div.window {
+    margin-bottom: 2rem;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+}

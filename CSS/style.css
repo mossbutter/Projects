@@ -1,2 +1,46 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+  margin: 5rem;
+}
+.card div.window-body {
+  font-size: 200%;
+}
+
 body {
-	max-width: 2rem;}
+  background-color: #00807F;
+  background-image: url("../images/clouds.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+  margin: 5rem;
+  display: none;
+}
+
+div.projects {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+  margin: 5rem;
+}
+
+div.window {
+  margin-bottom: 2rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
